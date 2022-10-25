@@ -51,4 +51,16 @@ img {
     width: 800px;
     height: 600px;
     border-radius: 15px;
+    animation: fadeIn 5s;
+}
+
+.none {
+    display: none;
+    opacity: 0%;
+}
+
+.block {
+    display: block;
+    opacity: 100%;
+    transition: 5s;
 }
