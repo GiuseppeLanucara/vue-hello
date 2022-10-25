@@ -13,12 +13,13 @@ const { createApp } = Vue
         titolo: "Ciao Mondo, ecco Vue!",
         nome: "",
         printResult : "",
-        immagine : "img/lofi-music.jpg"
+        immagine : ""
       }
     },
     methods: {
         printing: function () {
             this.printResult = `Ciao ${this.nome}!`
+            this.immagine = "img/lofi-music.jpg"
         }
     }
   }).mount('#app');
