@@ -14,7 +14,12 @@
 <body>
     
     <div id="app">
-
+        <h1>{{titolo}}</h1>
+        <label id="lab" for="name">Inserisci Nome</label>
+        <input type="text" id="name" v-model="nome">
+        <button id="btn" @click="printing" >Clicca</button>
+        <h2>{{printResult}}</h2>
+        <img src="immagine" alt="">
     </div>
 
 
@@ -23,4 +28,4 @@
 
     <script src="js/script.js"></script>
 </body>
-</html>l
+</html>
